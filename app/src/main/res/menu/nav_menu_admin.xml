@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_matches"
+            android:icon="@drawable/matches_icon"
+            android:title="Encuentros"/>
+
+        <item
+            android:id="@+id/nav_participantes"
+            android:icon="@drawable/participants_icon"
+            android:title="Participantes"/>
+
+        <item
+            android:id="@+id/nav_settings_admin"
+            android:icon="@drawable/settings_icon"
+            android:title="Configuracion"/>
+
+        <item
+            android:id="@+id/nav_about_admin"
+            android:icon="@drawable/nav_about"
+            android:title="Acerca de"/>
+
+    </group>
+
+    <item
+        android:title="">
+
+    <menu>
+        <item
+            android:id="@+id/logout_admin"
+            android:icon="@drawable/nav_log_out"
+            android:title="Salir"/>
+    </menu>
+
+    </item>
+
+</menu>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "170614772225",
+    "project_id": "torneo-tenisdemesa",
+    "storage_bucket": "torneo-tenisdemesa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170614772225:android:ffa72f97ebfe3efbae2600",
+        "android_client_info": {
+          "package_name": "com.example.torneo_tenis_de_mesa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMliO2VArHELBfbQWb3Y512eCToVXpCAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
