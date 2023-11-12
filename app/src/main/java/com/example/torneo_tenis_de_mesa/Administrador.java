@@ -24,11 +24,7 @@ public class Administrador extends AppCompatActivity implements NavigationView.O
 
     private DrawerLayout drawerLayout;
 
-    private Persona[] Participantes_cuartos = new Persona[8];
 
-    private Persona[] participantes_semifinal = new Persona[4];
-
-    private Persona[] participantes_final = new Persona[2];
 
 
 
@@ -56,7 +52,7 @@ public class Administrador extends AppCompatActivity implements NavigationView.O
 
 
         if (savedInstanceState == null){
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new MatchesFragment()).commit();
             navigationView.setCheckedItem(R.id.nav_matches);
         }
     }

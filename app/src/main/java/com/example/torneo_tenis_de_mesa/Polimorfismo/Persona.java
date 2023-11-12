@@ -1,12 +1,16 @@
 package com.example.torneo_tenis_de_mesa.Polimorfismo;
 
-public class Persona {
+import java.io.Serializable;
+
+public class Persona implements Serializable {
     public String  id;
     public String nombre;
     public String nombre_usuario;
     public  String correo;
     public String contrasena;
     public int tipo_usuario;
+
+    public String estado_torneo;
 
 
     public Persona() {
@@ -16,6 +20,16 @@ public class Persona {
         this.correo = "";
         this.contrasena = "";
         this.tipo_usuario = 0;
+        this.estado_torneo = "e";
+
+    }
+
+    public String getEstado_torneo() {
+        return estado_torneo;
+    }
+
+    public void setEstado_torneo(String estado_torneo) {
+        this.estado_torneo = estado_torneo;
     }
 
     public String getId() {
