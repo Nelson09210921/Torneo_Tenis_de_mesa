@@ -21,10 +21,6 @@
             android:label="@string/title_activity_Participante"
             android:theme="@style/Theme.Proyecto_gestion_de_torneos" />
         <activity
-            android:name=".CambiosMatchesActivity"
-            android:exported="false"
-            android:theme="@style/Theme.Proyecto_gestion_de_torneos" />
-        <activity
             android:name=".Administrador"
             android:exported="false"
             android:label="@string/title_activity_administrador"
