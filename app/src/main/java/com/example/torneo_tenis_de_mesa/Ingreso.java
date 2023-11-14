@@ -25,6 +25,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class Ingreso extends AppCompatActivity {
 
+    
     //Declaracion de variables
     private EditText mEmail;
 
@@ -42,7 +43,7 @@ public class Ingreso extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ingreso);
 
-
+        //@Param Ingresar
         mEmail = (EditText) findViewById(R.id.email_ingres);
         mContrasena = (EditText) findViewById(R.id.contrasena_ingreso);
 
@@ -51,7 +52,10 @@ public class Ingreso extends AppCompatActivity {
 
     }
 
-
+    /*Se verifica si existe un usuario que haya iniciado sesion antes
+    No se implementa por compelto 
+    @See reload();
+    */
     @Override
     protected void onStart(){
         super.onStart();
@@ -96,7 +100,7 @@ public class Ingreso extends AppCompatActivity {
                             @Override
                             public void onDataChange(@NonNull DataSnapshot snapshot) {
 
-                                //ciclo para obtener el objeto solicitado
+                                //ciclo para obtener el objeto(usuario) solicitado
                                 for (DataSnapshot ds : snapshot.getChildren()){
 
                                     Persona usuario = ds.getValue(Persona.class);
@@ -143,7 +147,7 @@ public class Ingreso extends AppCompatActivity {
                             @Override
                             public void onDataChange(@NonNull DataSnapshot snapshot) {
 
-                                //ciclo para obtener el objeto solicitado
+                                //ciclo para obtener el objeto(Usuario) solicitado
 
                                 for (DataSnapshot ds : snapshot.getChildren()){
 
