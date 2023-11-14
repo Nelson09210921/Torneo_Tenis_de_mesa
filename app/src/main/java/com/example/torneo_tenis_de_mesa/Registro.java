@@ -26,6 +26,8 @@ import java.util.UUID;
 
 public class Registro extends AppCompatActivity {
 
+    //@Param Registrar();
+
     //Se declaran variables para firebase
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
@@ -125,9 +127,10 @@ public class Registro extends AppCompatActivity {
         String contrasena = mEditTextContrasena.getText().toString();
 
         //Si todas las validadiones son correctas entra al condicional
-
+        //@Throws A message to complete minimun requeriments for sing up
+        
         isok = validaciones_de_entrada(isselect);
-
+        
 
         if (isok) {
 
@@ -178,6 +181,7 @@ public class Registro extends AppCompatActivity {
 
     }
 
+    
     private void sendEmailVerification(){
 
 
@@ -202,7 +206,7 @@ public class Registro extends AppCompatActivity {
     }
 
 
-
+    
     public boolean validaciones_de_entrada(boolean isselect) {
         //Declaracion de variables
         String nombre_completo = mEditTextNombreCompleto.getText().toString();
