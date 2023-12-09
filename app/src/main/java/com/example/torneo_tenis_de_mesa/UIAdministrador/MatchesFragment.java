@@ -69,10 +69,7 @@ public class MatchesFragment extends Fragment {
         RelativeLayout relativegenerar = (RelativeLayout) vista.findViewById(R.id.relativegenerar);
 
 
-        /*@Param jugadores inscritos 
-        *******SOLO PARA PRUEBA SE MODIFICARA CON UNA VALIDACION DE LA CANTIDAD DE 
-        JUGADORES INSCRITOS DENTRO DE LA BASE DE DATOS YA ESTABLECIDA*************
-        */
+
         Persona jugador = new Persona();
         jugador.setId("x");
         jugador.setNombre("Jugador");
@@ -146,7 +143,6 @@ public class MatchesFragment extends Fragment {
         p8.setTipo_usuario(2);
 
 
-        //PRUEBAAAAAA
         ///MODIFICARRRRRRRRRRRRRRRRRRRRRRRR
         btnmostrar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -220,7 +216,7 @@ public class MatchesFragment extends Fragment {
 
         /*
         HASTA AQUI SE VA A MODIFICARRRR
-        HASTA AQUI VIENEN LOS METODOS DE PRUEBA
+
         */
 
 

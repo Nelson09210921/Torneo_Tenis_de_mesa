@@ -117,24 +117,6 @@
         </RelativeLayout>
     </LinearLayout>
 
-    <Button
-        android:id="@+id/bottoningresar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Inscribir" />
-    <Button
-        android:id="@+id/bottonregistrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:text="registrar" />
-
-    <Button
-        android:id="@+id/bottonMostrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="Mostrar" />
 
 </RelativeLayout>
 </ScrollView>
