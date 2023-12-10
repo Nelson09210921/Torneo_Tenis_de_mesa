@@ -1,8 +1,10 @@
 package com.example.torneo_tenis_de_mesa.Polimorfismo;
 
+import com.google.firebase.database.DatabaseReference;
+
 import java.io.Serializable;
 
-public class Matches implements Serializable {
+public class Matches implements Serializable{
 
     public String id;
     public Persona jugador1;
@@ -13,7 +15,6 @@ public class Matches implements Serializable {
     public String tipo;
 
     public String tipo_objeto;
-
 
     public Matches() {
     }
