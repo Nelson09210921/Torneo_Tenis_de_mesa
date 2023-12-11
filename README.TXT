@@ -1,33 +1,34 @@
 ------------------------------------------------------------------------
-Este es el archivo README del proyecto. Aquí deberías describir tu proyecto.
-Informa al lector (alguien que no sabe nada acerca de este proyecto)
-todo lo que necesitan saber. Los comentarios deben incluir al menos:
-------------------------------------------------------------------------
+TÍTULO DEL PROYECTO:
+TorneoApp
 
-TÍTULO DEL PROYECTO: TorneoApp
+PURPOSE OF PROJECT:
+TorneoApp es una aplicación de gestión de torneos de tenis de mesa diseñada para facilitar la inscripción de participantes, la gestión de cuentas para administradores y el registro de nuevos torneos.
 
-PROPÓSITO DEL PROYECTO: 
-TorneoApp es una aplicación de gestión de torneos de tenis que facilita la inscripción de participantes, la gestión de cuentas para administradores y el registro de nuevos torneos.
+VERSION or DATE:
+Alpha 1.0.0, v2.0 (README) - Diciembre de 2023
 
-VERSIÓN o FECHA: v2.0 (Octubre de 2023)
+HOW TO START THIS PROJECT:
+Para iniciar el proyecto, descarga el archivo APK desde el repositorio y instálalo en tu dispositivo Android.
 
-CÓMO INICIAR EL PROYECTO:
-1. Clona el repositorio: `git clone https://github.com/Vale-gale/TorneoApp`
-2. Ingresa al directorio del proyecto: `cd torneoapp`
-3. Ejecuta la aplicación: `java -jar torneoapp.jar`
+TECNOLOGÍAS USADAS EN EL DESARROLLO DE LA APLICACIÓN:
+- Java
+- Android Studio
+- Firebase
 
-AUTORES: 
+TECNOLOGÍAS NECESARIAS PARA QUE EL PROYECTO FUNCIONE:
+- Android SDK
+- Dispositivo Android o Emulador para instalar y ejecutar el APK
+
+AUTHORS:
 - Valentina Galeano
 - Nelson Barboza
 
-INSTRUCCIONES DE USO:
-La aplicación ofrece las siguientes funcionalidades:
-- Inscripción de participantes en torneos.
-- Gestión de cuentas de usuario para administradores.
-- Registro de nuevos torneos.
-- Planificación y desarrollo de torneos.
-
-Para iniciar la aplicación, ejecuta el método `main` en la clase `Demo`.
+USER INSTRUCTIONS:
+1. Descarga el APK del repositorio de GitHub.
+2. Instala el APK en tu dispositivo Android.
+3. Regístrate como administrador o participante.
+4. Si eres administrador, puedes crear y gestionar torneos; si eres participante, puedes inscribirte y seguir los torneos.
 
 ------------------------------------------------------------------------
 
